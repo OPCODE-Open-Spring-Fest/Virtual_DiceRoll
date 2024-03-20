@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\divya\OneDrive\Desktop\flutter_projects\roll_dice_app\build\windows\x64\CMakeFiles\25b53ae96db352db805445fe82f08002\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A32F0C20-57FD-3895-8364-5101288A3D80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

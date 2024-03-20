@@ -1,0 +1,28 @@
+^C:\USERS\DIVYA\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\ROLL_DICE_APP\BUILD\WINDOWS\X64\CMAKEFILES\280E8A23150414C2552A369F1BF1B2DB\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\divya\OneDrive\Desktop\flutter_projects\roll_dice_app FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\divya\OneDrive\Desktop\flutter_projects\roll_dice_app\windows\flutter\ephemeral PROJECT_DIR=C:\Users\divya\OneDrive\Desktop\flutter_projects\roll_dice_app FLUTTER_TARGET=C:\Users\divya\OneDrive\Desktop\flutter_projects\roll_dice_app\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNDBlOTc2YmVkZmY1N2U2OWUxYjNkODlhN2MyYTNjNjE3YTAzZGFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\divya\OneDrive\Desktop\flutter_projects\roll_dice_app\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIVYA\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\ROLL_DICE_APP\BUILD\WINDOWS\X64\CMAKEFILES\E17F99C6CB8A3ED751794EF35A43A94E\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DIVYA\ONEDRIVE\DESKTOP\FLUTTER_PROJECTS\ROLL_DICE_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/windows -BC:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64 --check-stamp-file C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

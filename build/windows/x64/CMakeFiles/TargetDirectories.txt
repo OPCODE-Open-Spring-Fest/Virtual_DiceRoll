@@ -1,0 +1,10 @@
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/CMakeFiles/INSTALL.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/runner/CMakeFiles/roll_dice_app.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+C:/Users/divya/OneDrive/Desktop/flutter_projects/roll_dice_app/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
