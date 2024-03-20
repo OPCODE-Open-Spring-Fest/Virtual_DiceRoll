@@ -14,11 +14,11 @@ C:.
 |   package-lock.json
 |   package.json
 |   README.md
-    pubspec.lock
-    pubspec.yaml
-    roll_dice_app.iml
-    analysis_options.yaml
-    .metadata
+|    pubspec.lock
+|    pubspec.yaml
+|    roll_dice_app.iml
+|    analysis_options.yaml
+|    .metadata
 |
 +---.github
 |   +---Contributor_Guide
@@ -41,15 +41,15 @@ C:.
 |       commit-msg
 |       pre-commit
 |
-+---lib
-        dice_roller.dart
-        gradient_container.dart
-        main.dart
-+---assets      
-    +---images
-          dice1.jpg
-          dice2.jpg
-          dice3.jpg
-          dice4.jpg
-          dice5.jpg
-          dice6.jpg 
++---lib/
+    |    dice_roller.dart
+    |    gradient_container.dart
+    |    main.dart
++---assets/      
+    +---images/
+        |  dice1.jpg
+        |  dice2.jpg
+        |  dice3.jpg
+        |  dice4.jpg
+        |  dice5.jpg
+        |  dice6.jpg 
