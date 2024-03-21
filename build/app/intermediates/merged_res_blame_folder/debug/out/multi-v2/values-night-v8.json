@@ -4,7 +4,7 @@
             "outputFile": "com.example.roll_dice_app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\divya\\OneDrive\\Desktop\\flutter_projects\\roll_dice_app\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\divya\\OneDrive\\Desktop\\Virtual_DiceRoll\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
