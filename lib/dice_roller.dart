@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -5,15 +6,29 @@ import 'dart:math';
 final randomiser = Random();
 
 class DiceRoller extends StatefulWidget {
-  const DiceRoller({super.key});
+  const DiceRoller({Key? key}) : super(key: key);
   @override
   State<DiceRoller> createState() => _DiceRollerState();
 }
 
 class _DiceRollerState extends State<DiceRoller> {
-  var currentDiceRoll = 5;
+  late int currentDiceRoll;
 
- 
+  @override
+  void initState() {
+    super.initState();
+    currentDiceRoll = rollDice();
+  }
+
+  int rollDice() {
+    return randomiser.nextInt(6) + 1;
+  }
+
+  void roll() {
+    setState(() {
+      currentDiceRoll = rollDice();
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -27,13 +42,18 @@ class _DiceRollerState extends State<DiceRoller> {
         const SizedBox(
           height: 30,
         ),
-       TextButton(
-          onPressed: (){},
-          child: Text('Roll'),
-          ),
-          
-        
+        TextButton(
+          onPressed: roll,
+          child: Text('ROLL' , style: TextStyle(fontWeight: FontWeight.w500),),
+        ),
       ],
     );
   }
 }
+
+/*  In onpressed I am calling roll function
+inside roll function I am calling rolldice function 
+in rolldice function I am generating random no.
+And also assingning random no to currentdiceroll variable which is 
+changing the image no as dice$currentdiceroll. so it can change image 
+as random no is changing.*/
